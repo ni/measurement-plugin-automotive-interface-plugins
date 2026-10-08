@@ -76,12 +76,14 @@
 			<Item Name="Order tree.vi" Type="VI" URL="../Tree/Order tree.vi"/>
 			<Item Name="Re-Populate Tree.vi" Type="VI" URL="../Tree/Re-Populate Tree.vi"/>
 			<Item Name="Filter Tree.vi" Type="VI" URL="../Tree/Filter Tree.vi"/>
-			<Item Name="Defer Panel Updates.vi" Type="VI" URL="../Tree/Defer Panel Updates.vi"/>
 			<Item Name="Clear maps and sessions.vi" Type="VI" URL="../Tree/Clear maps and sessions.vi"/>
 			<Item Name="Build table.vi" Type="VI" URL="../Tree/Build table.vi"/>
 			<Item Name="Re-Populate Tree for Filter.vi" Type="VI" URL="../Tree/Re-Populate Tree for Filter.vi"/>
-			<Item Name="Filter new data.vi" Type="VI" URL="../Tree/Filter new data.vi"/>
 			<Item Name="Sort tree items.vi" Type="VI" URL="../Tree/Sort tree items.vi"/>
+			<Item Name="Group Filter Tree.vi" Type="VI" URL="../Tree/Group Filter Tree.vi"/>
+			<Item Name="Tree Filter.vi" Type="VI" URL="../Tree/Tree Filter.vi"/>
+			<Item Name="New data getter.vi" Type="VI" URL="../Tree/New data getter.vi"/>
+			<Item Name="Filter new tree data.vi" Type="VI" URL="../Tree/Filter new tree data.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
