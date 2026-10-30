@@ -6,7 +6,12 @@ This plugin is an easy-to-use CAN/LIN Bus capture with sorting and filtering opt
 
 - **LabVIEW 2025 Q3**
 - **Instrument Studio 2025 Q4**.
-- **NI PXIe-8510** with NI-XNET-CAN and/or NI-XNET-LIN transceiver
+- **NI PXIe-8510** with NI-XNET-CAN and/or NI-XNET-LIN transceiver   
+
+
+
+>**NOTE**   
+> All signals in the database are decoded and displayed in the Trace window and Signal Table. Plug-in performance may degrade when it decodes 120 or more signals.
 
 ## How to run this plugin
 
@@ -154,7 +159,3 @@ When you have more than 10k packets in the table, this method does not matter. W
 
 When you stop the plug-in, any packets that have not yet been processed (for example, packets that are not visible because the plug-in is currently paused) will be permanently lost.
 For this reason, only stop the plug-in when you are certain that there is no remaining data you still need to monitor.
-
-
->**IMPORTANT**   
-> All signals in the database are decoded and displayed in the Trace window and Signal Table. Plug-in performance may degrade when it decodes 120 or more signals.
