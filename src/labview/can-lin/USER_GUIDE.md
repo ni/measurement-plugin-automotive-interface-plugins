@@ -10,8 +10,10 @@ This plugin is an easy-to-use CAN/LIN Bus capture with sorting and filtering opt
 
 
 
->**NOTE**   
-> All signals in the database are decoded and displayed in the Trace window and Signal Table. Plug-in performance may degrade when it decodes 120 or more signals.
+<div style="border: 2px solid #666666; background-color: #eeeeee; color: #000000; padding: 12px; margin: 16px 0;">
+<p style="color: #000000; font-size: 1.2em; font-weight: bold; margin: 0 0 8px;">IMPORTANT</p>
+<p style="margin: 0;">All signals in the database are decoded and displayed in the Trace window and Signal Table. Plug-in performance may degrade when it decodes <strong>120 or more signals</strong>.</p>
+</div>
 
 ## How to run this plugin
 
