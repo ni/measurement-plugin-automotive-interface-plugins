@@ -17,6 +17,10 @@ Please see documentation [link](https://github.com/NI-Measurement-Plug-Ins/hardw
 * Measurement Plugin SDK 3.5.0.2
 * See individual measurement README's for NI driver version support.
 
+
+## Limitations
+
+
 ## Known Issues:
 These issues are organized by plugin:
 
@@ -26,5 +30,6 @@ These issues are organized by plugin:
  - Re‑enabling auto‑scroll while the table is continuously updating can be tricky. If you are having issues reaching the bottom, try pausing the plugin, scrolling the table to the bottom, and then unpausing to re‑enable auto‑scroll.
 
 ### CAN-LIN Raw Bus Capture plugin
+ - All signals in the database are decoded and displayed in the Trace window and Signal Table. Plug-in performance may degrade when it decodes 120 or more signals.  
  - The string filter activates when the user clicks away from the text field. There is no indicator that the string filter is processing, and it may take a second to apply.
  - Re‑enabling auto‑scroll while the table is continuously updating can be tricky. If you are having issues reaching the bottom, try pausing the plugin, scrolling the table to the bottom, and then unpausing to re‑enable auto‑scroll.
