@@ -17,10 +17,6 @@ Please see documentation [link](https://github.com/NI-Measurement-Plug-Ins/hardw
 * Measurement Plugin SDK 3.5.0.2
 * See individual measurement README's for NI driver version support.
 
-
-## Limitations
-
-
 ## Known Issues:
 These issues are organized by plugin:
 
