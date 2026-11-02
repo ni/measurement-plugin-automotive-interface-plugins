@@ -26,5 +26,7 @@ These issues are organized by plugin:
  - Re‑enabling auto‑scroll while the table is continuously updating can be tricky. If you are having issues reaching the bottom, try pausing the plugin, scrolling the table to the bottom, and then unpausing to re‑enable auto‑scroll.
 
 ### CAN-LIN Raw Bus Capture plugin
+ - All signals in the database are decoded and displayed in the Trace window and Signal Table.
+ - Plug-in performance may degrade when showing more than **120 frames and/or signals** on the trace window.
  - The string filter activates when the user clicks away from the text field. There is no indicator that the string filter is processing, and it may take a second to apply.
  - Re‑enabling auto‑scroll while the table is continuously updating can be tricky. If you are having issues reaching the bottom, try pausing the plugin, scrolling the table to the bottom, and then unpausing to re‑enable auto‑scroll.
